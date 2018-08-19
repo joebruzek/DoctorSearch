@@ -15,11 +15,11 @@ controller.getProvider = function(req, res, id) {
 	} else {
 		res.status(200);
 	}
-	return { provider: result };
+	return result;
 }
 
 /**
- * Get a list of providers near you. 
+ * Get a list of providers near you.
  *
  * Returns:
  * 		List of providers

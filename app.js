@@ -15,8 +15,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/providers', providersRouter);
 
-//initialize the sample data with 100 entries
-sampleData.init(100);
+//initialize the sample data with 400 entries
+sampleData.init(400);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
